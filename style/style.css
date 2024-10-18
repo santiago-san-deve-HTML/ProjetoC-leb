@@ -1,0 +1,133 @@
+@import url(padrao.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Discover-explore - Manu */
+
+.Discover-explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-box {
+    text-align: center;
+    width: 706px;
+}
+
+.txt-blue {
+    color: var(--txt-azul);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.04px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+.txt-black {
+    color: var(--txt-preto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.87px;
+    margin-bottom: 18px;
+    
+}
+
+.txt-grey {
+    color: var(--txt-cinza);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+
+}
+
+.grafico {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 750px;
+    height: 469px;
+}
+
+/* Client Testmonials - Manu */
+
+.txt-box2 {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.client-box{
+    margin: 0 38px;
+    width: 895px;
+    height: 372px;
+    border: 1px solid #BCBCBC;
+    border-radius: 15px;
+}
+
+.client-conteudo {
+    margin-top: 60px;
+    margin-bottom: 28px;
+    margin-left: 35px;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.estrela{
+    align-self: flex-end;
+    margin-left: 10px;
+}
+
+
+.client-esquerdo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.client-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.nome{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.data{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.client-txt-box{
+    margin: 0 38px;
+}
+
+.client-t {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.client-txt {
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 400;
+}
