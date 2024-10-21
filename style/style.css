@@ -6,6 +6,116 @@
     box-sizing: border-box;
 }
 
+/* Hero Banner - Victor */
+
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.hero-banner .main-banner-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+}
+
+.hero-banner .main-banner-area .text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-banner .main-banner-area .text-area h4 {
+    color: var(--txt-azul);
+    font-size: 16px;
+}
+
+.hero-banner .main-banner-area .text-area h2 {
+    font-weight: bold;
+    color: var(--txt-preto);
+    width: 300px;
+}
+
+.hero-banner .main-banner-area .text-area p {
+    color: var(--txt-cinza);
+    width: 400px;
+    font-size: 14px;
+}
+
+.hero-banner .main-banner-area .text-area ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.hero-banner .main-banner-area .text-area ul li a {
+    background-color: var(--txt-azul);
+    padding: 8px 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hero-banner .main-banner-area .text-area ul li a:hover {
+    cursor: pointer;
+    background-color: #416bdf;
+    transition: all 200ms;
+}
+
+.hero-banner .main-banner-area .text-area ul li button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px 8px;
+}
+
+.hero-banner .main-banner-area .text-area ul li button svg {
+    background-color: #09ff00;
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.hero-banner .main-banner-area .text-area ul li button:hover {
+    cursor: pointer;
+    background-color: var(--txt-cinza);
+    transition: all 200ms;
+}
+
+.hero-banner .main-banner-area img {
+    width: 50%;
+    min-width: 300px;
+}
+
+.hero-banner .partnerships {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 90px;
+    filter: grayscale(1);
+    opacity: 50%;
+}
+
+.hero-banner .partnerships img {
+    width: 20%;
+    max-width: 150px;
+    min-width: 80px;
+}
+
+
 /* Discover-explore - Manu */
 
 .Discover-explore{
@@ -50,6 +160,87 @@
     margin-bottom: 200px;
     width: 750px;
     height: 469px;
+}
+
+/* Why You Choose Us? - Victor*/
+
+.choose-us-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 90px;
+    gap: 20px;
+}
+
+.choose-us-banner .text-card-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.choose-us-banner .text-card-area .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.choose-us-banner .text-card-area .text h4 {
+    color: var(--txt-azul);
+    font-size: 16px;
+}
+
+.choose-us-banner .text-card-area .text h2 {
+    font-weight: bold;
+    color: var(--txt-preto);
+    width: 320px;
+    font-size: 25px;
+}
+
+.choose-us-banner .text-card-area .text p {
+    color: var(--txt-cinza);
+    width: 400px;
+    font-size: 14px;
+}
+
+.choose-us-banner .text-card-area .cards ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+.choose-us-banner .text-card-area .cards ul li .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    border: none;
+}
+
+.choose-us-banner .text-card-area .cards ul li .card .img-card svg {
+    width: 55px;
+    height: 55px;
+    fill: #fff;
+    background-color: var(--txt-azul);
+    padding: 14px;
+    border-radius: 50%;
+}
+
+.choose-us-banner .text-card-area .cards ul li .card .text-card h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.choose-us-banner .text-card-area .cards ul li .card .text-card p {
+    font-size: 12px;
+    color: var(--txt-cinza);
+    width: 320px;
+}
+
+.choose-us-banner img {
+    width: 35%;
+    min-width: 250px;
 }
 
 /* Client Testmonials - Manu */
